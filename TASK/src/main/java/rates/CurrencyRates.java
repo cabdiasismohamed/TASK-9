@@ -12,4 +12,8 @@ public class CurrencyRates {
         rates.put("SOS", 570.0);
         rates.put("UGX", 3800.0);
     }
+
+    public static double getRate(String from, String to) {
+        return rates.getOrDefault(from + "_" + to, -1.0);
+    }
 }
