@@ -18,5 +18,8 @@ class ConverterTest {
         assertEquals(85.0, Converter.convert("USD", "EUR", 100), 0.01);
     }
 
-  
+    @Test
+    void convert() {
+        assertEquals(212.5, Converter.convert("USD", "EUR", 250), 0.01);
+    }
 }
