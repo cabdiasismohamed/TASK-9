@@ -13,5 +13,7 @@ public class Main {
 
         System.out.print("Enter The amount: ");
         double amount = TASK9.nextDouble();
+        double result = Converter.convert(from, to, amount);
+        System.out.println("Converted Amount: " + result + " " + to);
     }
 }
