@@ -17,3 +17,9 @@ public class CurrencyRates {
         return rates.getOrDefault(from + "_" + to, -1.0);
     }
 }
+
+
+
+
+
+
